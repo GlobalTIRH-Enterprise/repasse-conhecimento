@@ -8,7 +8,7 @@ load_dotenv()
 GEMINI_MODEL = 'gemini-2.5-flash'
 
 
-# Researcher 1: Renewable Energy
+
 researcher_agent_1 = LlmAgent(
     name="RenewableEnergyResearcher",
     model=GEMINI_MODEL,
@@ -20,11 +20,9 @@ Output *only* the summary.
 """,
     description="Researches renewable energy sources.",
     tools=[google_search],
-    # Store result in state for the merger agent
     output_key="renewable_energy_result"
  )
 
-# Researcher 2: Electric Vehicles
 researcher_agent_2 = LlmAgent(
     name="EVResearcher",
     model=GEMINI_MODEL,
@@ -36,11 +34,9 @@ Output *only* the summary.
 """,
     description="Researches electric vehicle technology.",
     tools=[google_search],
-    # Store result in state for the merger agent
     output_key="ev_technology_result"
  )
 
-# Researcher 3: Carbon Capture
 researcher_agent_3 = LlmAgent(
     name="CarbonCaptureResearcher",
     model=GEMINI_MODEL,
@@ -52,7 +48,6 @@ Output *only* the summary.
 """,
     description="Researches carbon capture methods.",
     tools=[google_search],
-    # Store result in state for the merger agent
     output_key="carbon_capture_result"
  )
 
@@ -65,7 +60,7 @@ parallel_research_agent = ParallelAgent(
 
 merger_agent = LlmAgent(
     name="SynthesisAgent",
-    model=GEMINI_MODEL,  # Or potentially a more powerful model if needed for synthesis
+    model=GEMINI_MODEL,  
     instruction="""You are an AI Assistant responsible for combining research findings into a structured report.
 
  Your primary task is to synthesize the following research summaries, clearly attributing findings to their source areas. Structure your response using headings for each topic. Ensure the report is coherent and integrates the key points smoothly.
@@ -111,7 +106,6 @@ merger_agent = LlmAgent(
 
 sequential_pipeline_agent = SequentialAgent(
      name="ResearchAndSynthesisPipeline",
-     # Run parallel research first, then merge
      sub_agents=[parallel_research_agent, merger_agent],
      description="Coordinates parallel research and synthesizes the results."
  )
