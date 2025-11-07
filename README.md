@@ -43,6 +43,21 @@ Este repositório tem como intuito disponibilizar o conteúdo utilizado durante 
 - [**MCP Overview**](https://google.github.io/adk-docs/mcp) - Introdução ao Model Context Protocol
 - [**Ferramentas MCP**](https://google.github.io/adk-docs/tools/mcp-tools) - Ferramentas disponíveis para MCP
 
+### 🤖 Agent to Agent (A2A) Communication
+- [**A2A Overview**](https://google.github.io/adk-docs/a2a) - Introdução à comunicação entre agentes
+- [**A2A Introduction**](https://google.github.io/adk-docs/a2a/intro) - Guia inicial sobre A2A
+
+### ☁️ Vertex AI
+- [**Vertex AI Cookbook**](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/cookbook) - Receitas e exemplos de uso da Vertex AI
+
+### 🧠 Prompt Engineering
+- [**What is Prompt Engineering?**](https://cloud.google.com/discover/what-is-prompt-engineering) - O que é engenharia de prompts
+- [**Introduction to Prompt Design**](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design) - Introdução ao design de prompts
+- [**Prompt Design Strategies**](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/prompt-design-strategies) - Estratégias para criar prompts eficazes
+- [**How to Structure Prompts**](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/structure-prompts) - Como estruturar seus prompts
+- [**How to Break Down Prompts**](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/break-down-prompts) - Como quebrar prompts complexos em partes menores
+- [**Design Multimodal Prompts**](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/multimodal/design-multimodal-prompts) - Design de prompts multimodais
+
 ## 💡 Exemplos Práticos
 
 - [**ADK Python Examples**](https://github.com/google/adk-python) - Repositório oficial com exemplos em Python
