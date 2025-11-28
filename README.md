@@ -1,6 +1,6 @@
 # 🎓 Repasse de Conhecimento
 
-Este repositório tem como intuito disponibilizar o conteúdo utilizado durante o repasse de conhecimento para a SGG do período de **Novembro de 2024**.
+Este repositório tem como intuito disponibilizar o conteúdo utilizado durante o repasse de conhecimento para a SGG do período de **Novembro de 2025**.
 
 ## 📅 Cronograma dos Encontros
 
